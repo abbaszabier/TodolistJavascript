@@ -29,7 +29,6 @@ function showList() {
     output += `<div class="todo card mb-3">
                           <div class="todo-list d-flex justify-content-between card-body text-start">
                             <li class="list-group-item">
-                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched" />
                               <label class="form-check-label">${data}</label>
                             </li>
                             <button class="border-0 bg-transparent" onclick="deleteList(${index})" id="close"><i class="bi bi-trash-fill text-danger"></i></button>
